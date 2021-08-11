@@ -9,7 +9,7 @@ function UseStateObjects() {
         message: "I am god",
     });
 
-    const [name, setName] = useState("Tony Stark")
+    const [name, setName] = useState("Tony Stark") // Also Use to write like this (Another Convention)
     const [age, setage] = useState(45)
     const [message, setMessage] = useState("I am IronMan")
     const changeMessage = () => {
