@@ -9,16 +9,20 @@ function UseStateObjects() {
         message: "I am god",
     });
 
+    const [name, setName] = useState("Tony Stark")
+    const [age, setage] = useState(45)
+    const [message, setMessage] = useState("I am IronMan")
     const changeMessage = () => {
 
-        setPerson({...person, message:"Not anymore"})   
+        setPerson({...person, message:"Not anymore"}) 
+        setMessage("Hello World");  
     }
     return (
         <div>
            <>
-              <h3>{person.name}</h3>
-              <h3>{person.age}</h3>
-              <h3>{person.message}</h3>
+              <h3>{name}</h3>
+              <h3>{age}</h3>
+              <h3>{message}</h3>
 
               <button className = "btn" onClick={changeMessage}>Change my message </button>
            </>
