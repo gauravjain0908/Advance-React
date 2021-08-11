@@ -1,6 +1,6 @@
 import React from 'react';
 //import UseStateObject from "./tutorial/useStateObject";
-import UseStateBasic from ".tutorial/UseStateBasic";
+import UseStateBasic from "./tutorial/UseStateBasic";
 
 function App() {
   
