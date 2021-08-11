@@ -6,13 +6,14 @@ import UseStateObjects from './tutorial/UseStateObjects';
 import UseStateCounter from './tutorial/UseStateCounter';
 import UseEffectBasic from './tutorial/UseEffectBasic';
 import Forms from './tutorial/Forms';
+import LearnJSON from './tutorial/LearnJSON';
 
 
 function App() {
 
   return (<div className='container'>
     
-    <Forms />
+    <LearnJSON />
   </div>
   );
 }

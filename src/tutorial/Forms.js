@@ -17,7 +17,7 @@ function Forms() {
         e.preventDefault(); // this is used to prevent our default behaviour of our browser
         if (firstName && email) {
             console.log('sumbit the value');
-            const person = { id: new Date().getTime.toString, firstName, email };
+            const person = { id: new Date().getTime().toString, firstName, email };
             console.log(person);
             setPeople((people) => {
 
@@ -58,8 +58,6 @@ function Forms() {
                    </div>
                    );
                 })}
-
-
             </article>
         </>
     )
