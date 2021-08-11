@@ -11,7 +11,7 @@ function UseStateObjects() {
 
     const changeMessage = () => {
 
-        setPerson("Not anymore")
+        setPerson({...person, message:"Not anymore"})   
     }
     return (
         <div>
