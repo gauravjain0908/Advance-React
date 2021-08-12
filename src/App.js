@@ -7,13 +7,14 @@ import UseStateCounter from './tutorial/UseStateCounter';
 import UseEffectBasic from './tutorial/UseEffectBasic';
 import Forms from './tutorial/Forms';
 import LearnJSON from './tutorial/LearnJSON';
+import Index from './tutorial/Reducer/index';
 
 
 function App() {
 
   return (<div className='container'>
     
-    <LearnJSON />
+    <Index />
   </div>
   );
 }
