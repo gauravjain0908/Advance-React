@@ -10,13 +10,14 @@ import LearnJSON from './tutorial/LearnJSON';
 import Index from './tutorial/Reducer/index';
 import ReactRouterDom from './tutorial/React-Router';
 import PropDrilling from './tutorial/Prop-Drilling';
+import ContextAPI from './tutorial/Context';
 
 
 function App() {
 
   return (<div className='container'>
     
-    <PropDrilling />
+    <ContextAPI />
   </div>
   );
 }
